@@ -1,0 +1,1037 @@
+
+/*.................Body......................*/
+
+body
+{
+	background-image: linear-gradient(to right,#03150d94,#253741);
+}
+
+
+/*.............Scroll bar................*/
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #304148;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #646f6ded;
+	border-radius: 6px;
+}
+
+/*..........Header...............*/
+
+
+#body-header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*......icon of page.......*/
+
+#icon-header
+{
+	color: white;
+}
+
+#icon-header i
+{
+	font-size:30px;
+}
+
+/*.......favourite menu*......*/
+
+#fav-header
+{
+	display: flex;
+	flex-direction: row;
+	padding: 3%;
+	width: 25%;
+	justify-content: space-around;
+}
+
+#fav
+{
+	text-align: center;
+}
+
+ #fav ul
+ {
+	margin: 0px;
+	padding: 0px;
+}
+
+#fav ul li
+{
+	width: 100px;
+	padding: 10px;
+	list-style: none;
+}
+
+#fav ul li a
+{
+	text-decoration: none;
+	color:white;
+}
+
+#fav ul li .fa-star
+{
+	margin-right: 5px;
+}
+
+#fav ul li:hover
+{
+	background:#03150d94;
+	border-radius: 3px;
+	opacity: 0.9;
+}
+
+.sub-menu-1
+{
+	display: none;
+}
+
+#fav ul li:hover .sub-menu-1 
+{	
+	display: block;
+	position: absolute;
+	margin-top: 11px;
+	background:#03150d94;
+	margin-left: -10px;
+	opacity: 0.7;
+}
+	
+
+#fav ul li:hover .sub-menu-1 ul 
+{
+display: block;
+margin: 10px;
+}
+
+
+#fav ul li:hover .sub-menu-1 ul li
+{
+	width:122px;
+	padding:8px;
+	border-bottom:1px dotted #fff;
+	background:transparent;
+	text-align: left;
+	border-radius: 0;
+}
+
+#fav ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+}
+
+#fav ul li:hover .sub-menu-1 ul li a:hover
+{
+	color:yellow;
+}
+
+/*......search icon......*/
+
+#search-engine
+{
+	display: flex;
+	flex-direction: row;
+	padding: 3%;
+   width: 35%;
+   justify-content: space-around;
+}
+
+#search 
+{
+    height: 30px;
+	border-radius: 10px;
+	background-color: #2f3640;
+	padding: 3px;
+}
+
+
+.input-box
+{
+	border:none;
+	outline: none;
+	background:none;
+	color:white;
+    font-size: 16px;
+	transition: 0.4s all;
+	line-height: 30px;
+	width:230px;
+}
+
+.btn
+{
+	 float: left;
+	text-decoration: none;
+	width: 30px;
+	height: 20px;
+	text-align: center;
+	margin-top: 9px;
+	border-radius: 40%;
+	color:#1abc9c;
+}
+
+.switch
+{
+	 float: right;
+	text-decoration: none;
+	width: 30px;
+	height: 20px;
+	text-align: center;
+	margin-top: 9px;
+	border-radius: 40%;
+	color:#1abc9c;
+}
+
+#search:hover .btn
+{
+	color: white;
+}
+
+#search:hover .switch
+{
+	color:white;
+}
+
+/*....Notification icon....*/
+
+#notification i
+{
+	color:white;
+	position: relative;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+/*...Account image.....*/
+
+#image img
+{
+	 height: 2rem;
+    width: 2rem;
+    border:2px solid white;
+    box-shadow: 0px 0px 3px 2px lightgrey;
+     border-radius: 50%;
+     position: relative;
+}
+
+/*..............body..................*/
+
+/*....section....*/
+
+#album
+{
+	margin-top:80px;
+	margin-left: -150px;
+	display: flex;
+	flex-direction: row;
+}
+
+/*.............LEFT PART..............*/
+
+
+/*....Cards image....*/
+
+.rights
+{
+	width: 100%;
+}
+
+#card
+{
+   margin-left: 25px;
+   width: 100%;
+}
+
+#card img
+{
+	border-radius: 20px;
+	box-shadow: 0px 8px 35px 5px black;
+	position: relative;
+	
+}
+
+#toxic 
+{
+	position: relative;
+    top: 10%;
+    margin-bottom: 15px;
+    height: 227px;
+    width: 340px;
+    left: 17%;
+    z-index: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+#maxup
+{
+	height: 279px;
+	width: 410px;
+    z-index: 1;
+}
+
+#justin
+{
+	position: relative;
+	height: 227px;
+	width: 355px;
+	margin-bottom: 20px;
+	left: -14%;
+	top: 10%;
+    z-index: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+#toxic:hover
+{
+	height: 250px;
+	top: 5%;
+    z-index: 2;
+}
+
+#justin:hover
+{
+	height: 250px;
+	top: 5%;
+	z-index: 2;
+}
+
+/*....Latest Release....*/
+
+#latest
+{
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 190px;
+}
+
+.heading
+{
+	margin-left: 30px;
+	color: white;
+	margin-bottom: 30px;
+}
+
+#set
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width:950px;
+}
+
+#store
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 20px;
+	width: 950px;
+}
+
+.current-songs
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: center;
+	box-shadow: 0px 8px 35px 5px black;
+	width: 400px;
+	height: 155px;
+	margin-left: 0px;
+	background-color: #77889954;
+	border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.current-songs img
+{
+	height: 100px;
+	width: 100px;
+	margin-left: 20px;
+	margin-top: 17px;
+}
+
+.name
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	margin-left: -60px;
+	color: white;
+}
+
+.date
+{
+	margin-top: -10px;
+}
+
+.duration
+{
+	display: flex;
+	flex-direction: column;	
+	color: white;
+    margin-right: 30px;
+}
+
+
+.duration ul li
+{
+	list-style: none;
+	text-align: center;
+}
+
+.duration ul li a
+{
+      color: white;
+      text-decoration: none;
+}
+
+.sub-menu-1
+{
+	display: none;
+}
+
+.duration ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background:#03150d94;
+	opacity: 0.7;
+    margin-left: -150px;
+	margin-top: 0;
+}
+
+.duration ul li:hover .sub-menu-1 ul {
+      display: block;
+     margin: 5px;
+   }
+
+
+.duration ul li:hover .sub-menu-1 ul li{
+	display: block;
+	padding: 8px;
+	border-bottom:1px dotted #fff;
+	background:transparent;
+	text-align: left;
+	border-radius: 0;
+
+}
+
+.duration ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+
+.time
+{
+	    margin-top: -12px;
+    margin-left: 39px;
+}
+
+.sym
+{
+	float: left;
+	color:white;
+	margin-right: 30px;
+	font-size: 12px;
+	padding: 3px;
+}
+
+/*....Popular Artist....*/
+
+.container
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 215px;
+	margin-top: 70px;
+}
+
+.row
+{
+     display: flex;
+     flex-direction: row;
+     margin-left: -15px;
+}
+
+#pop
+{
+	margin-left: 2px;
+	color: white;
+	margin-bottom: 40px;
+}
+
+.container .box
+{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+	transition: 0.5s;
+	margin-left: 15px;
+}
+
+.container .box:hover
+{
+	z-index: 1;
+	transform: scale(1.25);
+	box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+
+.container .box .imgbx
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 140px;
+	height: 140px;
+
+}
+
+.container .box .imgbx:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 140px;
+	height: 140px;
+	z-index: 1;
+	background:linear-gradient(180deg,#f00,#000);
+	mix-blend-mode: multiply;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.container .box:hover .imgbx:before
+{
+         opacity: 1;
+}
+
+.container .box .imgbx img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 140px;
+	height: 140px;
+	object-fit: cover;
+	border: 1px solid white;
+}
+
+.container .box .content
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 140px;
+	height: 140px;
+	z-index: 2;
+	display: flex;
+	padding: 3px;
+	align-items: flex-end;
+	font-size: 10px;
+
+}
+
+.container .box .content h4
+{
+	color:#fff;
+	transition: 0.5s;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-left: 4px;
+	transform: translateY(200px);
+}
+
+.container .box:hover .content h4
+{
+	transform: translateY(0);
+	transition-delay: 0.6s;
+}
+
+.container .box .content p
+{
+	color: #fff;
+	transform: translateY(200px);
+    transition: 0.5s;
+}
+
+.container .box:hover .content p
+{
+	transform: translateY(0);
+	transition-delay: 0.7s;
+}
+
+.container .box .content a
+{
+	text-decoration: none;
+}
+
+.container .box .content a p:hover
+{
+	color:yellow;
+	transition: 0.2s;
+}
+
+/*....Stations....*/
+
+
+#station
+{
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 200px;
+}
+
+#points
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width:100%;
+	height: 155px;
+	background-color: #22593dd1;
+	box-shadow: 0px 1px 15px 0px #1e9c97ab;
+}
+
+
+.stage img
+{
+	height: 120px;
+	width: 120px;
+	margin-left: -10px;
+	margin-top: 18px;
+	opacity: 0.5;
+	border-radius: 50%;
+	border: 2px solid #ffff0036;
+}
+
+
+.stage
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+}
+
+#bore 
+{
+	margin-top: -74px;
+    color: white;
+    margin-left: 39px;
+}
+
+.stage h3
+{
+	z-index: 2;
+	margin-top: -74px;
+    color: white;
+    margin-left: 15px;
+}
+
+.station img
+{
+	height: 120px;
+	width: 120px;
+	margin-top: 18px;
+	margin-left: 15px;
+	border: 2px solid #0000004f;
+}
+
+/*....Mood Portion....*/
+
+#three
+{
+	display: flex;
+	flex-direction: row;
+	width: 900px;
+    margin-top: 40px;
+    margin-left: 200px;
+    justify-content: space-between;
+
+}
+
+.separate
+{
+	display: flex;
+	flex-direction: column;
+	height: 190px;
+	width: 300px;
+}
+
+.separate img
+{
+	height: 190px;
+	width: 300px;
+	border-radius: 10px;
+	opacity: 0.6;
+	transition: transform .5s ease-in-out;
+	overflow: hidden;
+
+}
+
+#elec
+{
+	margin-left: 18px;
+}
+
+#road
+{
+	margin-left: 36px;
+}
+
+.separate h4
+{
+	z-index: 2;
+	margin-left: 122px;
+	margin-top:-110px;
+	color: white;
+	font-weight: bolder;
+	font-size: 1.3rem;
+}
+
+#trip
+{
+	margin-left: 138px;
+}
+
+.separate:hover img
+{
+	transform: scale(1.05);
+	opacity: 1;
+}
+
+/*....Latest Hindi/English.....*/
+
+#fresh
+{
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 200px;
+}
+
+.heading3
+{
+	margin-left: 13px;
+	color: white;
+	margin-bottom: 30px;
+}
+
+#english
+{
+	display: flex;
+	flex-direction: row;	
+	width:100%;
+}
+
+.king
+{
+    border: 2px solid #0000005c;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0px 8px 35px 5px black;
+	width: 140px;
+	margin-right: 12px;
+	height: 180px;
+	margin-left: 0px;
+	background-color: #8d291747;
+	
+}
+
+.king img
+{
+	height: 120px;
+	width: 140px;
+	margin-top: 0;
+}
+
+.stay
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: relative;
+	margin-left: -132px;
+	color: white;
+}
+
+.aug
+{
+	margin-top: -15px;
+    margin-bottom: 4px;
+}
+
+.badshah h4
+{
+	font-size: 12px;
+}
+
+/*.............RIGHT PART................... */
+
+/*....Queue....*/
+
+#correct
+{
+	display: flex;
+	flex-direction: row;
+	width: 400px;
+   justify-content: space-between;
+}
+
+#queue
+{
+	color: white;
+	font-size: 1rem;
+	margin-left: 20px;
+}
+
+select
+{
+	outline: none;
+	box-shadow: none;
+	border: 0 !important;
+	background:#2b3c4505;
+	width: 70px;
+	margin-top:20px;
+	color: white;
+}
+
+.select
+{
+	position: relative;
+	display: block;
+	background: #2b3c4505;
+  	line-height: 3;
+  	overflow: hidden;
+}
+
+#left
+{
+	background-color:#0822319e;
+}
+
+
+/*....Queue List....*/
+
+#play
+{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 76%;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+
+#recent
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	
+}
+
+.play-song
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: center;
+	box-shadow: 0px 7px 30px 1px #b7a3a930;
+	width: 400px;
+	height: 75px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	background-color: #77889954;
+	border-radius: 10px;
+	margin-right: 15px;i
+}
+
+.blks
+{
+	display: flex;
+    flex-direction: row;
+    width: 275px;
+    justify-content: space-between;
+}
+
+.play-song img{
+	height: 55px;
+	width: 64px;
+	margin-left: -58px;
+	margin-top: 20px;
+}
+
+#number
+{
+   margin-left: 20px;
+   color: white;
+   margin-top: 35px;
+}
+
+.pun-name
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	margin-left: -60px;
+	color: white;
+	margin-right: 35px;
+	width: 102px;
+}
+
+.fa-heart
+{
+	color: white;
+	margin-right: 25px;
+}
+
+
+/*................footer.................*/
+
+#ta-player
+{
+	width: 100%;
+	height: 60px;
+	background-color: #33434bf7;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+   box-shadow: 0px 7px 60px 4px #1e9c97fa;
+   position: fixed;
+   z-index: 4;
+}
+
+.ta-player-container
+{
+	width: 100%;
+	height: 100%;
+	color: red;
+	display: flex;
+}
+
+section
+{
+	flex:1;
+}
+
+.ta-player-info
+{
+	display: flex;
+	align-items: center;
+}
+
+.ta-artwork
+{
+	background:radial-gradient(transparent,#ffffff26,#1d3c1f9c), url(https://aniportalimages.s3.amazonaws.com/media/details/Salman_khan_Z3qIBVn.jpg);
+	width: 80px;
+	height: 62px;
+	background-size: cover;
+	background-position: center;
+	display: block;
+	position: relative;
+	margin-right: 30px;
+	margin-left: 10px;
+}
+
+.title
+{
+	font-weight: 500;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.title:hover
+{
+	color:yellow;
+	transition: .2s;
+}
+
+.username
+{
+	font-weight: 500;
+	font-size: 15px;
+	color: #ffffffb0;
+	text-decoration: none;
+}
+
+.username:hover
+{
+	color: orange;
+	transition: .2s;
+}
+
+.ta-player-progress
+{
+	flex: 2;
+	display: flex;
+	align-items: center;
+}
+
+.ta-player-progress-wrapper
+{
+  width: 100%;
+   position: relative;
+}
+
+.ta-player-progress-wrapper input
+{
+	width:100%;
+}
+
+
+.ta-player-progress span
+{
+	color: #ffff00c2;
+	font-weight: 500;
+	font-size: 16px;
+	min-width: 50px;
+	text-align: center;
+}
+
+
+.ta-player-controls
+{
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.ta-player-controls button
+{
+	border: none;
+	background-color: transparent;
+}
+
+
+.ta-player-controls button i
+{
+	font-size: 16px;
+	margin: 0 8px;
+	color: #ffffffbd;
+}
+
+/*....................................................................*/
+
+

@@ -1,0 +1,912 @@
+/*.........Body................*/
+
+body
+{
+	background-image: linear-gradient(to right,#03150d94,#253741);
+}
+
+
+
+#body-header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*.............Scroll bar................*/
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #242f34e8;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #dbe9ec73;
+	border-radius: 6px;
+}
+
+
+/*......icon of page.......*/
+
+#icon-header
+{
+	color: white;
+}
+
+#icon-header i
+{
+	font-size:30px;
+}
+
+/*.......favourite menu*......*/
+
+#fav-header
+{
+	display: flex;
+	flex-direction: row;
+	padding: 3%;
+	width: 25%;
+	justify-content: space-around;
+}
+
+#fav
+{
+	text-align: center;
+}
+
+ #fav ul
+ {
+	margin: 0px;
+	padding: 0px;
+}
+
+#fav ul li
+{
+	width: 100px;
+	padding: 10px;
+	list-style: none;
+}
+
+#fav ul li a
+{
+	text-decoration: none;
+	color:white;
+}
+
+#fav ul li .fa-star
+{
+	margin-right: 5px;
+}
+
+#fav ul li:hover
+{
+	background:#03150d94;
+	border-radius: 3px;
+	opacity: 0.9;
+}
+
+.sub-menu-1
+{
+	display: none;
+}
+
+#fav ul li:hover .sub-menu-1 
+{	
+	display: block;
+	position: absolute;
+	margin-top: 11px;
+	background:#03150d94;
+	margin-left: -10px;
+	opacity: 0.7;
+}
+	
+
+#fav ul li:hover .sub-menu-1 ul 
+{
+display: block;
+margin: 10px;
+}
+
+
+#fav ul li:hover .sub-menu-1 ul li
+{
+	width:122px;
+	padding:8px;
+	border-bottom:1px dotted #fff;
+	background:transparent;
+	text-align: left;
+	border-radius: 0;
+}
+
+#fav ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+}
+
+#fav ul li:hover .sub-menu-1 ul li a:hover
+{
+	color:yellow;
+}
+
+/*......search icon......*/
+
+#search-engine
+{
+	display: flex;
+	flex-direction: row;
+	padding: 3%;
+   width: 35%;
+   justify-content: space-around;
+}
+
+#search 
+{
+    height: 30px;
+	border-radius: 10px;
+	background-color: #2f3640;
+	padding: 3px;
+}
+
+
+.input-box
+{
+	border:none;
+	outline: none;
+	background:none;
+	color:white;
+    font-size: 16px;
+	transition: 0.4s all;
+	line-height: 30px;
+	width:230px;
+}
+
+.btn
+{
+	 float: left;
+	text-decoration: none;
+	width: 30px;
+	height: 20px;
+	text-align: center;
+	margin-top: 9px;
+	border-radius: 40%;
+	color:#1abc9c;
+}
+
+.switch
+{
+	 float: right;
+	text-decoration: none;
+	width: 30px;
+	height: 20px;
+	text-align: center;
+	margin-top: 9px;
+	border-radius: 40%;
+	color:#1abc9c;
+}
+
+#search:hover .btn
+{
+	color: white;
+}
+
+#search:hover .switch
+{
+	color:white;
+}
+
+/*....Notification icon....*/
+
+#notification i
+{
+	color:white;
+	position: relative;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+/*...Account image.....*/
+
+#image img
+{
+	 height: 2rem;
+    width: 2rem;
+    border:2px solid white;
+    box-shadow: 0px 0px 3px 2px lightgrey;
+     border-radius: 50%;
+     position: relative;
+}
+
+
+
+#body-header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*......icon of page.......*/
+
+#icon-header
+{
+	color: white;
+}
+
+#icon-header i
+{
+	font-size:30px;
+}
+
+/*.......favourite menu......*/
+
+#fav-header
+{
+	display: flex;
+	flex-direction: row;
+	padding: 3%;
+	width: 25%;
+	justify-content: space-around;
+}
+
+#fav
+{
+	text-align: center;
+}
+
+ #fav ul
+ {
+	margin: 0px;
+	padding: 0px;
+}
+
+#fav ul li
+{
+	width: 100px;
+	padding: 10px;
+	list-style: none;
+}
+
+#fav ul li a
+{
+	text-decoration: none;
+	color:white;
+}
+
+#fav ul li .fa-star
+{
+	margin-right: 5px;
+}
+
+#fav ul li:hover
+{
+	background:#03150d94;
+	border-radius: 3px;
+	opacity: 0.9;
+}
+
+.sub-menu-1
+{
+	display: none;
+}
+
+#fav ul li:hover .sub-menu-1 
+{	
+	display: block;
+	position: absolute;
+	margin-top: 11px;
+	background:#03150d94;
+	margin-left: -10px;
+	opacity: 0.7;
+}
+	
+
+#fav ul li:hover .sub-menu-1 ul 
+{
+display: block;
+margin: 10px;
+}
+
+
+#fav ul li:hover .sub-menu-1 ul li
+{
+	width:122px;
+	padding:8px;
+	border-bottom:1px dotted #fff;
+	background:transparent;
+	text-align: left;
+	border-radius: 0;
+}
+
+#fav ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+}
+
+#fav ul li:hover .sub-menu-1 ul li a:hover
+{
+	color:yellow;
+}
+
+/*......search icon......*/
+
+#search-engine
+{
+	display: flex;
+	flex-direction: row;
+	padding: 3%;
+   width: 35%;
+   justify-content: space-around;
+}
+
+#search 
+{
+    height: 30px;
+	border-radius: 10px;
+	background-color: #2f3640;
+	padding: 3px;
+}
+
+
+.input-box
+{
+	border:none;
+	outline: none;
+	background:none;
+	color:white;
+    font-size: 16px;
+	transition: 0.4s all;
+	line-height: 30px;
+	width:230px;
+}
+
+.btn
+{
+	 float: left;
+	text-decoration: none;
+	width: 30px;
+	height: 20px;
+	text-align: center;
+	margin-top: 9px;
+	border-radius: 40%;
+	color:#1abc9c;
+}
+
+.switch
+{
+	 float: right;
+	text-decoration: none;
+	width: 30px;
+	height: 20px;
+	text-align: center;
+	margin-top: 9px;
+	border-radius: 40%;
+	color:#1abc9c;
+}
+
+#search:hover .btn
+{
+	color: white;
+}
+
+#search:hover .switch
+{
+	color:white;
+}
+
+/*....Notification icon....*/
+
+#notification i
+{
+	color:white;
+	position: relative;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+/*......Account image.....*/
+
+#image img
+{
+	 height: 2rem;
+    width: 2rem;
+    border:2px solid white;
+    box-shadow: 0px 0px 3px 2px lightgrey;
+     border-radius: 50%;
+     position: relative;
+}
+
+/*..............body..................*/
+
+/*....section....*/
+
+#collection
+{
+	margin-top:80px;
+	display: flex;
+	flex-direction: row;
+}
+
+/*..............LEFT PART..............*/
+
+#left
+{
+	width: 900px;
+}
+
+/*....Artist Detail....*/
+
+#unique
+{
+	display: flex;
+	flex-direction: row;
+ 	box-shadow: 0px 8px 35px 5px black;
+	width: 900px;
+	height: 400px;
+	margin-left: 50px;
+	background-color: #1877844f;
+}
+
+#images
+{
+	position: relative;
+	background:radial-gradient(transparent,#ffffff59,#187784cc), url(https://yespunjab.com/wp-content/uploads/2019/12/B-Praak-.jpg);
+	height: 400px;
+	width: 370px;
+	background-size: cover;
+	background-position: center;
+}
+
+.place
+{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 20px;
+	top: 40px;
+}
+
+#praak1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#praak1 h1
+{
+	color: white;
+	margin-left: 12px;
+}
+
+#praak1 p
+{
+	position: relative;
+	font-weight: 600;
+	left: 156%;
+	color: #39ef18b3;
+}
+
+#para
+{
+  	position: absolute;
+	top: 15%;
+	left: 10%;
+	width: 250%;
+
+}
+
+#para p
+{
+	line-height: 20px;
+	color: white;
+}
+
+
+#all
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#all button
+{
+	border: none;
+    position: relative;
+    left: 12%;
+    top: 290%;
+    background: linear-gradient(to left top, #183294e3, #fff9c457);
+    color: white;
+    width: 40%;
+    height: 70%;
+}
+
+#all h3
+{
+	color: #ffffffa6;
+	position: relative;
+	top: 272%;
+	left: 40%;
+}
+
+/*....Singer Playlist....*/
+
+#enjoyment
+{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+}
+
+#playlist
+{
+		display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+#list
+{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 7px 30px 1px #b7a3a97d;
+    width: 900px;
+    height: 75px;
+    margin-bottom: 10px;
+    margin-left: 47px;
+    background-color: #153a3f4a;
+    border-radius: 5px;
+}
+
+.blocks
+{
+	display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+
+#list img
+{
+	height: 55px;
+	width: 64px;
+    margin-right: 20px;
+    margin-top: 18px;
+}
+
+#num
+{
+	color: white;
+	margin-left: 8px;
+	margin: 33px;
+}
+
+.sad
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	color: white;
+}
+
+.heart
+{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	color: white;
+	margin-right: 45px;
+}
+
+.fa-heart
+{
+	color: white;
+	margin-right: 40px;
+}
+
+.punjabi
+{
+	margin-top: -10px;
+}
+
+
+/*.................RIGHT PART....................*/
+
+/*....Similar Artisdt Heading....*/
+
+#similar
+{
+	display: flex;
+	flex-direction: row;
+	width: 500px;
+   justify-content: space-between;
+
+}
+
+#artists
+{
+		color: white;
+	margin-left: 100px;
+
+}
+
+#view
+{
+	color:#b4e9eca1;
+	margin-top: 8px;
+}
+
+/*....Similar Artist....*/
+
+#creatror
+{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#top
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	
+}
+
+.art
+{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 7px 30px 1px #d81b60c2;
+    width: 410px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    background-color: #03051c38;
+    border-radius: 10px;
+}
+
+.art img{
+    height: 88px;
+    width: 85px;
+    margin-left: 13px;
+    margin-top: 0px;
+    opacity: 0.7;
+}
+
+.dur
+{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+		color: white;
+		margin-right: 30px;
+}
+
+.chahal
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	margin-left: -120px;
+	color: white;
+}
+
+.timing
+{
+	margin-top: 5px;
+}
+
+/*....Recently Played....*/
+
+#hd2
+{
+	display: flex;
+	flex-direction: row;
+	width: 500px;
+   justify-content: space-between;
+   margin-top: 50px;
+
+}
+
+#enjoy
+{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+}
+
+#plays
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+#listening
+{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 7px 30px 1px #d81b60c2;
+    width: 415px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-left: 92px;
+    background-color: #03051c38;
+    border-radius: 10px;
+}
+
+.small-block
+{
+	display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+
+
+#listening img
+{
+	height: 55px;
+	width: 64px;
+    margin-right: 20px;
+    margin-top: 18px;
+    opacity: 0.7;
+}
+
+#numbering
+{
+	    color: white;
+    margin-left: 11px;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+.beat
+{
+	color: white;
+	margin-right: 0px;
+}
+
+/*................Footer..................*/
+
+#ta-player
+{
+	width: 100%;
+	height: 60px;
+	background-color: #485759fc;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+   box-shadow: 0px 7px 60px 4px #1e9c97fa;
+   position: fixed;
+   z-index: 4;
+}
+
+.ta-player-container
+{
+	width: 100%;
+	height: 100%;
+	color: red;
+	display: flex;
+}
+
+section
+{
+	flex:1;
+}
+
+.ta-player-info
+{
+	display: flex;
+	align-items: center;
+}
+
+.ta-artwork
+{
+	background:radial-gradient(transparent,#ffffff26,#1d3c1f9c), url(https://i.scdn.co/image/ab67616d0000b273343e0ff2c00658b72353517d);
+	width: 80px;
+	height: 62px;
+	background-size: cover;
+	background-position: center;
+	display: block;
+	position: relative;
+	margin-right: 30px;
+	margin-left: 10px;
+}
+
+.title
+{
+	font-weight: 500;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.title:hover
+{
+	color:yellow;
+	transition: .2s;
+}
+
+.username
+{
+	font-weight: 500;
+	font-size: 15px;
+	color: #ffffffb0;
+	text-decoration: none;
+}
+
+.username:hover
+{
+	color: orange;
+	transition: .2s;
+}
+
+.ta-player-progress
+{
+	flex: 2;
+	display: flex;
+	align-items: center;
+}
+
+.ta-player-progress-wrapper
+{
+  width: 100%;
+   position: relative;
+}
+
+.ta-player-progress-wrapper input
+{
+	width:100%;
+}
+
+
+.ta-player-progress span
+{
+	color: #ffff00c2;
+	font-weight: 500;
+	font-size: 16px;
+	min-width: 50px;
+	text-align: center;
+}
+
+
+.ta-player-controls
+{
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.ta-player-controls button
+{
+	border: none;
+	background-color: transparent;
+}
+
+
+
+.ta-player-controls button i
+{
+	font-size: 16px;
+	margin: 0 8px;
+	color: #ffffffbd;
+}
+
+/*.....................................................................*/

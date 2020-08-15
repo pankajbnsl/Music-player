@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="projstyle.css">
+    <link rel="stylesheet" href=" https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+     <!-- header part of the body -->
+	    <header>                                                        
+        <!-- icon of the header -->
+    <div id=body-header>
+    <div id="fav-header">
+    	<div id="icon-header">
+            <i class="fab fa-python"></i>
+    		 Mood <b><br>Masti</br></b>
+    	</div>
+         <!-- Favourite menu -->
+        <div id="fav">          
+           <ul>
+            <li><a href="#"><b><i class="fas fa-star"></i>Favourites</b></a>
+               <div class="sub-menu-1">
+                <!-- Unordered list of menu1 -->
+                 <ul>
+                <li><a href="#">Latest Released</a></li>
+                <li><a href="#">Latest Songs</a></li>
+                <li><a href="#">Top Artists</a></li>
+                 </ul> 
+               </div>
+            </li>
+           </ul>
+        </div>
+    </div>
+    <!-- Search icons -->
+    <div id="search-engine">
+        <div id="search">
+         <a class="btn" href="#"><i class="fas fa-search"></i></a> <input class="input-box" type="text" name="input" placeholder="search"><a class="switch" href="#"><i class="fas fa-microphone"></i></a>
+        </div>
+        <!-- Notification icon -->
+         <div id="notification">
+            <i class="fas fa-bell"></i>
+        </div>
+        <!-- Account icon -->
+        <div id="image">
+            <img src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-9/66168023_2066062997030151_808862527906643968_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=ZJ15lp9NFvkAX_tMy8X&_nc_ht=scontent.fdel1-2.fna&oh=c289b43ea4fbaf1941b3845c8a2e08f6&oe=5F36D7B3">
+        </div>
+    </div>
+    </div>
+    </header>
+    <!-- End of Header -->
+    
+       <!--BODY PART -->
+        <section id="album">
+        <!-- START OF LEFT PART-->
+            <div id="left-article">
+       <!-- start of card portion -->
+            <div class="rights">
+               <div id="card">
+                <img src="https://qqcdnpicweb.mxplay.com/media/images/9f85c6702e2b4c080e651f3e5ed2e685/16x9/3x/test_pic1590664058561.jpg" id="toxic">
+                <img src="https://i.ytimg.com/vi/epW-9U7TPow/maxresdefault.jpg" id="maxup">
+                <img src="https://guardianlv.com/wp-content/uploads/2014/04/Justin-Biebers-New-Song-Hard-2-Face-Reality-About-Selena-Gomez-Audio-650x420.jpg" id="justin">
+            </div>
+        </div>
+        <!-- End of Card Portion -->
+
+        <!-- Start of Latest Release Portion -->
+            <div id="latest">
+             <!-- Heading of Release part -->
+                <h3 class="heading">Latest Release</h3>
+             <!--Start of First Row  -->
+                <div id="set">
+             <!-- first block -->
+                <div class="current-songs" id="singga">
+                  <img src="https://lyricsseries.com/wp-content/uploads/2020/06/Dildariyaan-Lyrics-1024x576.jpg">
+                   <div class="name"><h4>Dildariyan</h4>
+                    <h5 class="date">April 21 2017</h5></div>
+                    <div class="duration">
+                        <ul>
+                        <li><a href="#"><i class="fa fa-ellipsis-h"  aria-hidden="true"></i></a>
+                           <div class="sub-menu-1">
+                          <!-- Unordered list of menu1 -->
+                             <ul>
+                            <li><i class="fas fa-play sym"></i><a href="#">Play Now</a></li>
+                            <li><i class="fas fa-plus sym"></i><a href="#">Add to Queue</a></li>
+                            <li><i class="fas fa-list sym"></i><a href="#">Add to Favourites</a></li>
+                            <li><i class="fas fa-info-circle sym"></i><a href="#">Get Info</a></li>
+                           </ul> 
+                          </div>
+                       </li>
+                       </ul>
+                    <h6 class="time">3:21</h6>
+                  </div>
+                </div>
+              <!-- End of First Block -->
+
+              <!-- Second Block -->
+                 <div class="current-songs" id="myway">
+                  <img src="https://i.ytimg.com/vi/llGQMlkgkpk/hqdefault.jpg">
+                   <div class="name"><h4>On My Way</h4>
+                    <h5 class="date">April 21 2017</h5></div>
+                    <div class="duration">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-ellipsis-h"  aria-hidden="true"></i></a>
+                           <div class="sub-menu-1">
+                          <!-- Unordered list of menu1 -->
+                            <ul>
+                            <li><i class="fas fa-play sym"></i><a href="#">Play Now</a></li>
+                            <li><i class="fas fa-plus sym"></i><a href="#">Add to Queue</a></li>
+                            <li><i class="fas fa-list sym"></i><a href="#">Add to Favourites</a></li>
+                            <li><i class="fas fa-info-circle sym"></i><a href="#">Get Info</a></li>
+                           </ul> 
+                         </div>
+                       </li>
+                    </ul>
+                    <h6 class="time">3:21</h6>
+                 </div>
+                </div>
+            <!--End of Second Block  -->
+            </div>
+            <!-- End of First row -->
+
+            <!-- Start of Second row -->
+               <div id="store">
+             <!-- Third Block -->
+                 <div class="current-songs" id="singga">
+                  <img src="https://static.toiimg.com/thumb/msid-76335057,width-800,height-600,resizemode-75,imgsize-130735,pt-32,y_pad-40/76335057.jpg">
+                   <div class="name"><h4>Bambiha Bole</h4>
+                    <h5 class="date">April 21 2017</h5></div>
+                    <div class="duration">
+                         <ul>
+                        <li><a href="#"><i class="fa fa-ellipsis-h"  aria-hidden="true"></i></a>
+                           <div class="sub-menu-1">
+                          <!-- Unordered list of menu1 -->
+                            <ul>
+                           <li><i class="fas fa-play sym"></i><a href="#">Play Now</a></li>
+                            <li><i class="fas fa-plus sym"></i><a href="#">Add to Queue</a></li>
+                            <li><i class="fas fa-list sym"></i><a href="#">Add to Favourites</a></li>
+                            <li><i class="fas fa-info-circle sym"></i><a href="#">Get Info</a></li>                              
+                           </ul> 
+                        </div>
+                       </li>
+                     </ul>
+                    <h6 class="time">3:21</h6>
+                 </div>
+                </div>
+             <!-- End of Third Block -->
+
+             <!-- Start of Fourth Block -->
+                 <div class="current-songs" id="myway">
+                  <img src="https://i.ytimg.com/vi/6jFADet2hGo/maxresdefault.jpg">
+                   <div class="name"><h4>Lifeline</h4>
+                    <h5 class="date">April 21 2017</h5></div>
+                    <div class="duration">
+                     <ul>
+                      <li><a href=""><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                         <div class="sub-menu-1">
+                          <!-- Unordered list of menu1 -->
+                            <ul>
+                            <li><i class="fas fa-play sym"></i><a href="#">Play Now</a></li>
+                            <li><i class="fas fa-plus sym"></i><a href="#">Add to Queue</a></li>
+                            <li><i class="fas fa-list sym"></i><a href="#">Add to Favourites</a></li>
+                            <li><i class="fas fa-info-circle sym"></i><a href="#">Get Info</a></li>                              
+                           </ul> 
+                        </div>
+                     </li>
+                    </ul>
+                    <h6 class="time">3:21</h6>
+                 </div>
+                </div>
+              <!-- End of Fourth Block -->
+            </div>
+            <!-- End of Second Row -->
+            </div>
+            <!-- End of Latest Release Portion -->
+
+            <!-- Start of Popular Artists -->
+            <div class="container">
+            <!-- Heading of Artists Part -->
+            <h3 id="pop">Popular Artists</h3>
+            <!-- Collection Of Artists Images and Identities -->
+               <div class="row">
+              <!-- first Artist Image -->
+                <div class="box">
+                  <div class="imgbx">
+                 <img src="https://gossipgiri.com/wp-content/uploads/2019/06/b-praak.jpg">
+                 </div>
+                 <div class="content">
+                     <div>
+                      <a href="second.html"><h4>B Praak</h4>
+                        <p>Pratik Bachan, best known by his stage name B Praak, is an Indian singer and music composer associated with the Punjabi Music industry</p></a>
+                     </div>
+                 </div>
+                </div>
+                <!-- End of First Artist Image -->
+
+                <!-- Second Artist Image -->
+                 <div class="box">
+                  <div class="imgbx">
+                  <img src="https://areporterlive.com/wp-content/uploads/2020/01/Jass-Manak-3.png">
+                 </div>
+                 <div class="content">
+                     <div>
+                         <a href=""><h4>Jass Manak</h4>
+                        <p>Jass Manak(born 12 February 1999) is an Indian Punjabi singer-songwriter</p></a>
+                     </div>
+                 </div>
+                </div>
+                <!-- End of Second Artist Image -->
+
+                <!-- Third Artist Image -->
+                 <div class="box">
+                  <div class="imgbx">
+                <img src="https://i.pinimg.com/236x/10/12/ea/1012eae623fd747c2334984e983f6b80--kodaline-rock-bands.jpg">
+                 </div>
+                 <div class="content">
+                     <div>
+                         <a href=""><h4>kodaline</h4>
+                        <p>Kodaline is an Irish rock band. The group comprises Steve Garrigan, Mark Prendergast, Vincent May and Jason Boland.</p></a>
+                     </div>
+                 </div>
+                </div>
+                <!-- End of Third Artist Image -->
+
+                <!-- Fourth Artist Image -->
+                 <div class="box">
+                 <div class="imgbx">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Lana_Del_Rey_%40_Grammy_Museum_10_13_2019_%2849311023203%29.jpg">
+                 </div>
+                 <div class="content">
+                     <div>
+                        <a href=""> <h4>Lana Del Rey</h4>
+                        <p>Elizabeth Woolridge Grant (born June 21, 1985), known by her stage name Lana Del Rey, is an American singer and songwriter</p></a>
+                     </div>
+                 </div>
+                </div>
+                <!-- End of Fourth Artist Image -->
+
+                <!-- Fivth Artist Image -->
+                  <div class="box">
+                  <div class="imgbx">
+                <img src="https://e-cdns-images.dzcdn.net/images/artist/bd2f40512fa76ea53ea70672e3bd024f/500x500.jpg">
+                 </div>
+                 <div class="content">
+                     <div>
+                       <a href="">  <h4>Sidhu Moose Wala</h4>
+                        <p>Shubhdeep Singh Sidhu, better known as Sidhu Moose Wala, is an Indian singer, lyricist, rapper and actor associated with Punjabi music and Punjabi cinema</p></a>
+                     </div>
+                 </div>
+                </div>
+                <!-- End of Fivth Artist Image -->
+
+                <!-- Sixth Artist Image -->
+                  <div class="box">
+                  <div class="imgbx">
+                <img src="https://edm.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTYyOTQ5NjIyODEyMTI1MDI1/the-chainsmokers-press-photo-by-danilo-lewis-2018-billboard-1548.jpg">
+                 </div>
+                 <div class="content">
+                     <div>
+                        <a href=""> <h4>The Chainsmokers</h4>
+                        <p>The Chainsmokers are an American electronic DJ and production duo consisting of Alexander "Alex" Pall and Andrew "Drew" Taggart</p></a>
+                     </div>
+                 </div>
+                </div>
+                <!-- End of Sixth Artist Image -->
+            </div>
+            <!-- End of Collection Images -->
+            </div>
+            <!-- End of Popular Artist -->
+
+            <!-- Start of Station Part -->
+            <div id="station">
+            <div id="points">
+                <!-- Start of Station Images -->
+                <div class="station" id="mood">
+                <img src="https://media1.popsugar-assets.com/files/thumbor/7MrWIdIyJJCRad7iacv44A1vuJQ/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/01/19/075/n/1922398/164397aa0dbb9d0d_new.jpg">
+                </div>
+                <div class="stage" id="sad">
+                 <img src="https://imgix.bustle.com/uploads/image/2018/1/8/a288950a-a5f5-4131-a1e3-d52442bc5834-fotolia_103399578_subscription_monthly_m.jpg?w=970&h=546&fit=crop&crop=faces&auto=format%2Ccompress&cs=srgb&q=70">
+                 <h3 id="bore">Sad</h3> 
+                </div>
+                <div class="stage" id="inspiration">
+                 <img src="https://cdn.psychologytoday.com/sites/default/files/styles/image-article_inline_full/public/field_blog_entry_teaser_image/Inspiration%20unsplash_0.jpeg?itok=Wswm0Ixy">
+                 <h3>Inspiration</h3>
+                </div>
+                 <div class="stage" id="morning">
+                 <img src="https://cdn.postgradproblems.com/wp-content/uploads/2016/07/e7b95d1cc34252c126e3581bb07d353c.png">
+                 <h3>Morning</h3>
+                </div>
+                <div class="stage" id="meditation">
+                <img src="https://media.npr.org/assets/img/2014/01/07/mindfulness_wide-b20c3525971d5796eba9ad993463fffe8faf2bcb-s800-c85.jpg">
+                 <h3>Meditation</h3>
+                </div>
+                <div class="stage" id="romantic">
+                 <img src="https://s3-eu-west-1.amazonaws.com/eflanguagesblog/wp-content/uploads/2020/02/13083321/10_most_romantic_cities_hero-1.jpg">
+                 <h3>Romantic</h3>
+                </div>
+                <!-- End of Station Images -->
+            </div>
+            </div>
+            <!-- End of Station Part -->
+       
+            <!-- Start of Mood portion with Hover -->
+            <div id="three">
+                <!-- Start of mood images -->
+                <div class="separate">
+                    <img src="https://d22ir9aoo7cbf6.cloudfront.net/wp-content/uploads/sites/2/2016/06/Atlantis-04.jpg">
+                    <h4>Party</h4>
+                </div>
+                <div class="separate">
+            <img src="https://dancingastronaut.com/wp-content/uploads/2017/12/Screen-Shot-2017-12-30-at-5.48.04-PM.png" id="elec">
+                    <h4>Electronics</h4>
+                </div>
+                <div class="separate">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTZ9J1UQ9nNEtFvqoycYkIvOCHvIWVHk6poXw&usqp=CAU" id="road">
+                    <h4 id="trip">Road Trip</h4>
+                </div>
+                <!-- End of Mood Images -->
+            </div>
+            <!-- End of Mood Portion with Hover -->
+
+            <!--Start of Latest English  -->
+            <div id="fresh">
+            <!-- Heading of Latest English -->
+            <h3 class="heading3">Latest English</h3>
+            <!-- Start of English Song list -->
+              <div id="english">
+                <!-- Start of songs identity -->
+                    <div class="king" id="gold">
+                    <img src="https://headlineplanet.com/home/wp-content/uploads/2020/06/BTS-The-Journey-Cover-2-758x758.jpg">
+                         <div class="stay"><h4>Stay Gold</h4>
+                         <h5 class="aug">Aug 11 2017</h5></div>
+                    </div>
+                    <div class="king" id="ginger">
+                    <img src="https://miro.medium.com/max/750/1*dmbusobRmzB20HF9Rt8FaQ.jpeg">
+                         <div class="stay"><h4>Ginger Me</h4>
+                         <h5 class="aug">Aug 11 2017</h5></div>
+                    </div>
+                    <div class="king" id="next">
+                    <img src="https://c.saavncdn.com/810/Next-to-Me-English-2018-20180607132728-500x500.jpg">
+                         <div class="stay"><h4>Next 2 me</h4>
+                         <h5 class="aug">Aug 11 2017</h5></div>
+                    </div>
+                    <div class="king" id="fly">
+                    <img src="https://c.saavncdn.com/540/Learn-To-Fly-English-2020-20200612000749-500x500.jpg">
+                         <div class="stay"><h4>Learn To Fly</h4>
+                         <h5 class="aug">Aug 11 2017</h5></div>
+                    </div>
+                    <div class="king" id="candy">
+                    <img src="https://i1.wp.com/images.genius.com/66a8a09b033203ae37303ca79c680339.1000x1000x1.png?resize=262%2C262&ssl=1">
+                         <div class="stay"><h4>Sour Candy</h4>
+                         <h5 class="aug">Aug 11 2017</h5></div>
+                    </div>
+                    <div class="king" id="tkn">
+                        <img src="https://pmcvariety.files.wordpress.com/2020/05/image011-e1590688784976.jpg?w=325">
+                         <div class="stay"><h4>TKN</h4>
+                         <h5 class="aug">Aug 11 2017</h5></div>
+                    </div>
+                    <!-- End of Song Identity -->
+               </div>
+             <!-- End of English Song List -->
+            </div>
+            <!-- End of Latest English -->
+  
+            <!-- Start of Latest Hindi -->
+              <div id="fresh">
+             <!--Heading of Latest Hindi -->
+             <h3 class="heading3">Latest Hindi</h3>
+             <!-- Start of Hindi Song List -->
+              <div id="english">
+                <!-- Start of Hindi Song Identity -->
+                    <div class="king" id="skecher">
+                     <img src="https://i.ytimg.com/vi/0kjYCDqVDbI/maxresdefault.jpg">
+                         <div class="stay badshah"><h4>Skechers(Feat. Badshah)</h4>
+                         <h5 class="aug">Aug 11 2017</h5></div>
+                    </div>
+                    <div class="king" id="mann">
+                    <img src="https://c.saavncdn.com/272/Yeh-Mann-Hindi-2020-20200613154947-500x500.jpg">
+                         <div class="stay"><h4>Yeh Mann</h4>
+                         <h5 class="aug">Aug 11 2017</h5></div>
+                    </div>
+                    <div class="king" id="bina">
+                    <img src="https://mumbaimirror.indiatimes.com/photo/75696602.cms">
+                         <div class="stay"><h4>Tere Bina</h4>
+                         <h5 class="aug">Aug 11 2017</h5></div>
+                    </div>
+                    <div class="king" id="jeetenge">
+                     <img src="https://spiderimg.amarujala.com/assets/images/2020/05/02/750x506/dhvani-bhanushali_1588413848.jpeg">
+                         <div class="stay"><h4>Jeetenge Hum</h4>
+                         <h5 class="aug">Aug 11 2017</h5></div>
+                    </div>
+                    <div class="king" id="yalgaar">
+                    <img src="https://i.ytimg.com/vi/zzwRbKI2pn4/maxresdefault.jpg">
+                         <div class="stay"><h4>Yalgaar</h4>
+                         <h5 class="aug">Aug 11 2017</h5></div>
+                    </div>
+                    <div class="king" id="pyar">
+                    <img src="https://aniportalimages.s3.amazonaws.com/media/details/Salman_khan_Z3qIBVn.jpg">
+                         <div class="stay"><h4>Pyar Karona</h4>
+                         <h5 class="aug">Aug 11 2017</h5></div>
+                    </div>
+                    <!-- End of Hindi Song Identity -->
+               </div>  
+            <!-- End of Hindi Song List -->
+            </div>
+            <!-- End of Latest Hindi -->
+        </div>
+        <!-- END OF LEFT PART  -->
+
+
+         <!-- START OF RIGHT PART -->
+             <div id="right-article">
+                <!-- Start of Upper Heading -->
+                <div id="correct">
+                 <!-- Queue Heading -->
+                <div id="queue">
+                    <h3>Queue</h3>
+                </div>
+                 <!-- Select list -->
+                <div class="select">
+                    <select name="slt-1" id="slt-1">
+                    <option id="left" value="value1" selected>Queue</option>
+                    <option  id="left" value="value2">Playlists</option>
+                    <option  id="left" value="value3">Add Favourites</option>
+                    </select>
+                </div>
+              </div>
+              <!-- End of Upper Heading -->
+                 
+
+         <!-- Start of  Queue List -->
+            <div id="play">
+                <div id="recent">
+                    <!-- Start of Queue Song List -->
+                    <div class="play-song">
+                    <div class="blks">
+                     <p id="number">01</p>
+                     <img src="https://i.pinimg.com/736x/be/54/5e/be545ebc8a35d97dc71ac93cf1ecfba7.jpg">
+                     <div class="pun-name"><h4>Suit Punjabi</h4>
+                    <h5 class="date">Jass Manak</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                     <div class="play-song">
+                    <div class="blks">
+                     <p id="number">02</p>
+                     <img src="https://mllsh4gy6ww0.i.optimole.com/Eblwarc-LIzVpzYR/w:372/h:209/q:90/dpr:2.6/https://www.hijabiworld.com/wp-content/uploads/2020/05/Main-Suneya-Ammy-Virk-song-mp3-free-download-320kbps-Pagalsongs.jpg">
+                     <div class="pun-name"><h4>Main Suneya</h4>
+                    <h5 class="date">Ammy Virk</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                     <div class="play-song">
+                    <div class="blks">
+                     <p id="number">03</p>
+                     <img src="https://i.ytimg.com/vi/a2JAHrQSJu8/maxresdefault.jpg">
+                     <div class="pun-name"><h4>Drive long</h4>
+                    <h5 class="date">Mr.Dee</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                     <div class="play-song">
+                    <div class="blks">
+                     <p id="number">03</p>
+                     <img src="https://i.ytimg.com/vi/llGQMlkgkpk/hqdefault.jpg">
+                     <div class="pun-name"><h4>On My Way</h4>
+                    <h5 class="date">Alan Walker</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                     <div class="play-song">
+                     <div class="blks">
+                     <p id="number">04</p>
+                     <img src="https://www.ptcpunjabi.co.in/wp-content/uploads/2018/08/mankirt-aulakh.jpg">
+                     <div class="pun-name"><h4>Majbooriyan</h4>
+                    <h5 class="date">Mankrit Aulakh</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="play-song">
+                    <div class="blks">
+                     <p id="number">04</p>
+                     <img src="https://api.pendu-jatt.com/thumb/16707.jpg">
+                     <div class="pun-name"><h4>College</h4>
+                    <h5 class="date">Mankrit Aulakh</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="play-song">
+                    <div class="blks">
+                     <p id="number">05</p>
+                     <img src="https://a10.gaanacdn.com/gn_img/albums/NOXWVgbkqL/OXWVdlNgKk/size_xxl.webp">
+                     <div class="pun-name"><h4>Mere Papa</h4>
+                    <h5 class="date">Tulsi Kumar</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                     <div class="play-song">
+                    <div class="blks">
+                     <p id="number">06</p>
+                     <img src="https://i.ytimg.com/vi/8NisZwXuLns/hqdefault.jpg">
+                     <div class="pun-name"><h4>Trust Nobody</h4>
+                    <h5 class="date">DJ Snake</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                      <div class="play-song">
+                    <div class="blks">
+                     <p id="number">03</p>
+                     <img src="https://i.ytimg.com/vi/llGQMlkgkpk/hqdefault.jpg">
+                     <div class="pun-name"><h4>On My Way</h4>
+                    <h5 class="date">Alan Walker</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                       <div class="play-song">
+                     <div class="blks">
+                     <p id="number">07</p>
+                     <img src="https://www.musicdhol.com/wp-content/uploads/2019/10/duniya-song-20190826123245496.jpg">
+                     <div class="pun-name"><h4>Duniya</h4>
+                    <h5 class="date">Gurnam Bhullar</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                      <div class="play-song">
+                     <div class="blks">
+                     <p id="number">01</p>
+                     <img src="https://i.pinimg.com/736x/be/54/5e/be545ebc8a35d97dc71ac93cf1ecfba7.jpg">
+                     <div class="pun-name"><h4>Suit Punjabi</h4>
+                    <h5 class="date">Jass Manak</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                     <div class="play-song">
+                        <div class="blks">
+                     <p id="number">08</p>
+                     <img src="https://www.pinkvilla.com/files/styles/contentpreview/public/94464092_225184225469105_1625494109327240451_n.jpg?itok=2HUOK7DL">
+                     <div class="pun-name"><h4>Teri Yaari</h4>
+                    <h5 class="date">Millind Gaba</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="play-song">
+                    <div class="blks">
+                     <p id="number">04</p>
+                     <img src="https://api.pendu-jatt.com/thumb/16707.jpg">
+                     <div class="pun-name"><h4>College</h4>
+                    <h5 class="date">Mankrit Aulakh</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                     <div class="play-song">
+                     <div class="blks">
+                     <p id="number">02</p>
+                     <img src="https://mllsh4gy6ww0.i.optimole.com/Eblwarc-LIzVpzYR/w:372/h:209/q:90/dpr:2.6/https://www.hijabiworld.com/wp-content/uploads/2020/05/Main-Suneya-Ammy-Virk-song-mp3-free-download-320kbps-Pagalsongs.jpg">
+                     <div class="pun-name"><h4>Main Suneya</h4>
+                    <h5 class="date">Ammy Virk</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                     <div class="play-song">
+                    <div class="blks">
+                     <p id="number">06</p>
+                     <img src="https://i.ytimg.com/vi/8NisZwXuLns/hqdefault.jpg">
+                     <div class="pun-name"><h4>Trust Nobody</h4>
+                    <h5 class="date">DJ Snake</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                     <div class="play-song">
+                    <div class="blks">
+                     <p id="number">07</p>
+                     <img src="https://i.ytimg.com/vi/Vx7YkKpt-J4/maxresdefault.jpg">
+                     <div class="pun-name"><h4>Chidiya</h4>
+                    <h5 class="date">Vilen</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="play-song">
+                    <div class="blks">
+                     <p id="number">09</p>
+                     <img src="https://i.ytimg.com/vi/FGccwxOr9H4/maxresdefault.jpg">
+                     <div class="pun-name"><h4>Sheh</h4>
+                    <h5 class="date">Singga</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                     <div class="play-song">
+                    <div class="blks">
+                     <p id="number">08</p>
+                     <img src="https://i.pinimg.com/736x/76/0a/0a/760a0abae38d6b8e9d1765304e8b2c08.jpg">
+                     <div class="pun-name"><h4>Akhiyan</h4>
+                    <h5 class="date">Happy Raikoti</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                      <div class="play-song">
+                    <div class="blks">
+                     <p id="number">09</p>
+                     <img src="https://i.ytimg.com/vi/bXYaAVBKgFI/maxresdefault.jpg">
+                     <div class="pun-name"><h4>Hollywood</h4>
+                    <h5 class="date">Babbu Maan</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                     <div class="play-song">
+                    <div class="blks">
+                     <p id="number">03</p>
+                     <img src="https://i.ytimg.com/vi/a2JAHrQSJu8/maxresdefault.jpg">
+                     <div class="pun-name"><h4>Drive long</h4>
+                    <h5 class="date">Mr.Dee</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                     <div class="play-song">
+                     <div class="blks">
+                     <p id="number">07</p>
+                     <img src="https://www.musicdhol.com/wp-content/uploads/2019/10/duniya-song-20190826123245496.jpg">
+                     <div class="pun-name"><h4>Duniya</h4>
+                    <h5 class="date">Gurnam Bhullar</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="play-song">
+                     <div class="blks">
+                     <p id="number">04</p>
+                     <img src="https://miro.medium.com/max/1200/1*IIVc8GTAUh11IYlfNb1YWg.jpeg">
+                     <div class="pun-name"><h4>Come & Go</h4>
+                    <h5 class="date">Juice World</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="play-song">
+                     <div class="blks">
+                     <p id="number">13</p>
+                     <img src="https://i.ytimg.com/vi/sUJydWUc9Lk/maxresdefault.jpg">
+                     <div class="pun-name"><h4>Smile</h4>
+                    <h5 class="date">katy perry</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="play-song">
+                     <div class="blks">
+                     <p id="number">12</p>
+                     <img src="https://i.ytimg.com/vi/NRmnOhclofQ/maxresdefault.jpg">
+                     <div class="pun-name"><h4>Dewana</h4>
+                    <h5 class="date">Akhil</h5></div></div>
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    </div>
+                    <!-- End of Queue Song List -->
+                </div>
+            </div>
+            <!-- End of Queue List -->
+             </div>
+        <!--END OF RIGHT PART  -->
+        </section>
+        <!-- END OF BODY PART -->
+
+        <!-- FOOTER PART -->
+        <footer>
+           <div id="ta-player">
+            <div class="ta-player-container">
+                <section class="ta-player-info">
+                    <div class="ta-artwork">
+                    </div>
+                    <!-- Name of the Song -->
+                    <div class="ta-meta">
+                        <a href="" class="title"><b>Pyaar Karona</b></a><br>
+                        <a href="" class="username">Salman Khan</a>
+                    </div>
+                </section>
+                <!-- Playbar -->
+                <section class="ta-player-progress">
+                    <span class="ta-time-currnt">0:00</span>
+                    <div class="ta-player-progress-wrapper">
+                        <input type="range" min="1" max="100" value="40" id="default">
+                    </div>
+                    <span class="ta-time-duration">4:10</span> 
+                </section>
+              
+              <!-- Tools -->
+                <section class="ta-player-controls">
+                     <button class="ta-prev"><i class="fas fa-step-backward"></i></button>
+                    <button class="ta-play"><i class="fas fa-play"></i></button>
+                     <button class="ta-next"><i class="fas fa-step-forward"></i></button>
+                     <div>
+                         <button class="ta-shuffle"><i class="fas fa-random"></i></button>
+                         <button class="ta-redo"><i class="fas fa-redo"></i></button>
+                     </div>
+                     <div>
+                         <button class="ta-sound"><i class="fas fa-volume-up"></i></button>
+                         <button class="ta-favourite"><i class="fas fa-heart"></i></button>              
+                         </div>
+                     </div>
+                </section>
+            </div>
+       </div>
+        </footer>
+        <!-- END OF FOOTER PART -->
+       
+
+</body>
+</html>
